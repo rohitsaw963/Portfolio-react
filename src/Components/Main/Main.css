@@ -1,0 +1,15 @@
+.Main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8rem 10rem;
+  border: 2px dotted wheat;
+  border-radius: 20px;
+  padding: 10px 20px;
+  /* background-color: beige; */
+}
+
+img {
+  border-radius: 50%;
+  border: 0.2px solid red;
+}
