@@ -7,9 +7,43 @@
   border-radius: 20px;
   padding: 10px 20px;
   /* background-color: beige; */
+  font-size: 25px;
+  font-weight: 500;
 }
 
 img {
   border-radius: 50%;
   border: 0.2px solid red;
+}
+.Main h2 span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-btn {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.resume {
+  padding: 15px 35px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 100%);
+  cursor: pointer;
+}
+.main-connect {
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.resume:hover {
+  border: 2px solid #fff;
+}
+.main-connect:hover {
+  border-color: #1d067b;
 }
